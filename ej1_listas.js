@@ -1,5 +1,10 @@
     // Crea una lista de números pares del 2 al 20 utilizando un bucle while.
-
+    var listas=[];
+    var i=0;
+    while(i<=20){
+        listas.push(i);
+        i=i + 2;
+    }
     // Crea una lista de números impares del 1 al 19 utilizando un bucle for.
     
     // Crea una lista de comida.
