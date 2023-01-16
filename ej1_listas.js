@@ -16,9 +16,12 @@
     console.log("Lista de numeros impares: "+ listaImpar);
    
     // Crea una lista de comida.
-    
+  var comida=["pizza", "tortilla", "macarrones"];
+    console.log("Lista de comida: "+ comida);
+
     // Agrega un elemento al principio de la lista de comida que creaste en el ejercicio anterior.
-    
+    comida.unshift("aceitunas");
+
     // Accede al segundo elemento de la lista de comida y cambia su valor por otro diferente.
     
     // Recorre la lista de comida utilizando un bucle while y muestra cada elemento en la consola.
