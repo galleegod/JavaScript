@@ -6,8 +6,15 @@
         i=i + 2;
     }
     console.log("lista de numeros"+ listas);
+
     // Crea una lista de números impares del 1 al 19 utilizando un bucle for.
-    
+    var listaImpar=[];
+    for(var index=1; index<=19;index++){
+        if(index % 2==1);
+       listaImpar.push(index);
+    }
+    console.log("Lista de numeros impares: "+ listaImpar);
+   
     // Crea una lista de comida.
     
     // Agrega un elemento al principio de la lista de comida que creaste en el ejercicio anterior.
