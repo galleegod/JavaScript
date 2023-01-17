@@ -21,13 +21,20 @@
 
     // Agrega un elemento al principio de la lista de comida que creaste en el ejercicio anterior.
     comida.unshift("aceitunas");
-
+    console.log("Lista de comida editada: " +comida)
     // Accede al segundo elemento de la lista de comida y cambia su valor por otro diferente.
-    
+     comida[1]= "patatas";
+    console.log(comida
     // Recorre la lista de comida utilizando un bucle while y muestra cada elemento en la consola.
-    
+    var i= 0
+    while(i< comida.length){
+        console.log(comida[i]);
+        i= i+ 1
+    }
     // Crea una función que reciba una lista como parámetro y devuelva el último elemento de la lista.
-    
+    function verUltimoEnLaLista(lista){
+        return num1+ num2;
+    }
     // Crea una función que reciba una lista y un elemento como parámetros y agregue el elemento a la lista si no se encuentra en ella.
     
     // Crea una función que reciba una lista como parámetro y devuelva una nueva lista con los elementos de la lista original en orden inverso.
