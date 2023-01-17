@@ -35,6 +35,20 @@
     function verUltimoEnLaLista(lista){
         return num1+ num2;
     }
+ var numeros = [1,3,4,5,6,7,9];
+    
+    //Crea una función que reciba una lista de números 
+    /**y un número y nos tiene que devolver
+     *  si aparece el elemento en la lista o no */
+    function ListaQueDevuelveNumeros(lista,numero){
+        for(var i=0; i<lista.lenght; i++){
+           if(lista[index]== numero){
+            return true;
+           }
+        }
+        return false;
+    }
+   
     // Crea una función que reciba una lista y un elemento como parámetros y agregue el elemento a la lista si no se encuentra en ella.
     
     // Crea una función que reciba una lista como parámetro y devuelva una nueva lista con los elementos de la lista original en orden inverso.
